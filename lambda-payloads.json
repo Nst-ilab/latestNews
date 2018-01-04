@@ -1,0 +1,183 @@
+{
+    "latestNews": {
+        "lambda": {
+            "lineMessage": {
+                "events": [
+                    {
+                        "type": "message",
+                        "replyToken": "9b821803acd249298d9a2580aefbcd17",
+                        "source": {
+                            "userId": "U6576e4dfcbd7d17071d890c3c481471a",
+                            "type": "user"
+                        },
+                        "timestamp": 1515066504354,
+                        "message": {
+                            "type": "text",
+                            "id": "7256057856562",
+                            "text": "ニュース"
+                        }
+                    }
+                ]
+            },
+            "analysedMessage": {
+                "sentences": [
+                    {
+                        "text": {
+                            "content": "味の素ニュース",
+                            "beginOffset": -1
+                        },
+                        "sentiment": {
+                            "magnitude": 0.30000001192092896,
+                            "score": -0.30000001192092896
+                        }
+                    }
+                ],
+                "tokens": [
+                    {
+                        "text": {
+                            "content": "味",
+                            "beginOffset": -1
+                        },
+                        "partOfSpeech": {
+                            "tag": "NOUN",
+                            "aspect": "ASPECT_UNKNOWN",
+                            "case": "CASE_UNKNOWN",
+                            "form": "FORM_UNKNOWN",
+                            "gender": "GENDER_UNKNOWN",
+                            "mood": "MOOD_UNKNOWN",
+                            "number": "NUMBER_UNKNOWN",
+                            "person": "PERSON_UNKNOWN",
+                            "proper": "NOT_PROPER",
+                            "reciprocity": "RECIPROCITY_UNKNOWN",
+                            "tense": "TENSE_UNKNOWN",
+                            "voice": "VOICE_UNKNOWN"
+                        },
+                        "dependencyEdge": {
+                            "headTokenIndex": 3,
+                            "label": "NN"
+                        },
+                        "lemma": "味"
+                    },
+                    {
+                        "text": {
+                            "content": "の",
+                            "beginOffset": -1
+                        },
+                        "partOfSpeech": {
+                            "tag": "PRT",
+                            "aspect": "ASPECT_UNKNOWN",
+                            "case": "GENITIVE",
+                            "form": "FORM_UNKNOWN",
+                            "gender": "GENDER_UNKNOWN",
+                            "mood": "MOOD_UNKNOWN",
+                            "number": "NUMBER_UNKNOWN",
+                            "person": "PERSON_UNKNOWN",
+                            "proper": "NOT_PROPER",
+                            "reciprocity": "RECIPROCITY_UNKNOWN",
+                            "tense": "TENSE_UNKNOWN",
+                            "voice": "VOICE_UNKNOWN"
+                        },
+                        "dependencyEdge": {
+                            "headTokenIndex": 0,
+                            "label": "PRT"
+                        },
+                        "lemma": "の"
+                    },
+                    {
+                        "text": {
+                            "content": "素",
+                            "beginOffset": -1
+                        },
+                        "partOfSpeech": {
+                            "tag": "NOUN",
+                            "aspect": "ASPECT_UNKNOWN",
+                            "case": "CASE_UNKNOWN",
+                            "form": "FORM_UNKNOWN",
+                            "gender": "GENDER_UNKNOWN",
+                            "mood": "MOOD_UNKNOWN",
+                            "number": "NUMBER_UNKNOWN",
+                            "person": "PERSON_UNKNOWN",
+                            "proper": "NOT_PROPER",
+                            "reciprocity": "RECIPROCITY_UNKNOWN",
+                            "tense": "TENSE_UNKNOWN",
+                            "voice": "VOICE_UNKNOWN"
+                        },
+                        "dependencyEdge": {
+                            "headTokenIndex": 3,
+                            "label": "DEP"
+                        },
+                        "lemma": "素"
+                    },
+                    {
+                        "text": {
+                            "content": "ニュース",
+                            "beginOffset": -1
+                        },
+                        "partOfSpeech": {
+                            "tag": "NOUN",
+                            "aspect": "ASPECT_UNKNOWN",
+                            "case": "CASE_UNKNOWN",
+                            "form": "FORM_UNKNOWN",
+                            "gender": "GENDER_UNKNOWN",
+                            "mood": "MOOD_UNKNOWN",
+                            "number": "NUMBER_UNKNOWN",
+                            "person": "PERSON_UNKNOWN",
+                            "proper": "NOT_PROPER",
+                            "reciprocity": "RECIPROCITY_UNKNOWN",
+                            "tense": "TENSE_UNKNOWN",
+                            "voice": "VOICE_UNKNOWN"
+                        },
+                        "dependencyEdge": {
+                            "headTokenIndex": 3,
+                            "label": "ROOT"
+                        },
+                        "lemma": "ニュース"
+                    }
+                ],
+                "entities": [
+                    {
+                        "mentions": [
+                            {
+                                "text": {
+                                    "content": "味",
+                                    "beginOffset": -1
+                                },
+                                "type": "COMMON",
+                                "sentiment": null
+                            }
+                        ],
+                        "metadata": {},
+                        "name": "味",
+                        "type": "OTHER",
+                        "salience": 0.5455387234687805,
+                        "sentiment": null
+                    },
+                    {
+                        "mentions": [
+                            {
+                                "text": {
+                                    "content": "素ニュース",
+                                    "beginOffset": -1
+                                },
+                                "type": "COMMON",
+                                "sentiment": null
+                            }
+                        ],
+                        "metadata": {},
+                        "name": "素ニュース",
+                        "type": "OTHER",
+                        "salience": 0.4544612467288971,
+                        "sentiment": null
+                    }
+                ],
+                "categories": [],
+                "documentSentiment": {
+                    "magnitude": 0.30000001192092896,
+                    "score": -0.30000001192092896
+                },
+                "language": "ja"
+            },
+            "image": ""
+        }
+    }
+}
